@@ -11784,3 +11784,29 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .context-dark .countdown-circle-bg, .bg-gray-800 .countdown-circle-bg, .bg-primary .countdown-circle-bg {
 	fill: rgba(255, 255, 255, 0.1);
 }
+
+
+/* Botón flotante de WhatsApp */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  left: 30px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 36px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+.whatsapp-float:hover {
+  background-color: #128c7e;
+  color: #fff;
+  text-decoration: none;
+}
